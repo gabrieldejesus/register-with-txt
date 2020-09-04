@@ -1,13 +1,13 @@
 <?php
-$nome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_SPECIAL_CHARS); // pegando nome digitado e validando
+$title = filter_input(INPUT_POST, 'title', FILTER_SANITIZE_SPECIAL_CHARS); // pegando o titulo digitado e validando
 
-// verificar se nome está preenchido
-if($nome) {
-    $nomes = file_get_contents('nomes.txt'); // ler o texto
-    $nomes .= "\n<li>$nome</li>"; // adicionar nova linha
-    file_put_contents('nomes.txt', $nomes); // adicionar o contéudo novo
+// verificar se title está preenchido
+if($title) {
+    $titles = file_get_contents('note.txt'); // ler o texto
+    $titles .= "\n<li>$title</li>"; // adicionar nova linha
+    file_put_contents('note.txt', $titles); // adicionar o contéudo novo
 
-    header("Location: index.php"); // depois de adicionar enviar para o index;
+    header("Location: note.php"); // depois de adicionar envia para a página note;
     exit;
 } else {
     header("Location: index.php"); // se não tiver preenchido ele volta para o index
