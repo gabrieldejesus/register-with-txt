@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1>Lorem Ipsum is simply dummy text of the</h1> 
 <span>Lorem Ipsum is simply dummy text of the printing and typesetting
 industry. Lorem Ipsum has been the industry's standard dummy text
@@ -8,3 +9,7 @@ remaining essentially unchanged. It was popularised in the 1960s
 with the release of Letraset sheets containing Lorem Ipsum passages,
 and more recently with desktop publishing software like Aldus
 PageMaker including versions of Lorem Ipsum.</span>
+=======
+
+<li>Aula de hoje 20/02/20</li>
+>>>>>>> c2624cf3f08ec43e111fad914944b5361ebe88a4
