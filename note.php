@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -21,13 +20,3 @@
     </main>
 </body>
 </html>
-=======
-<h1>Lista de nomes</h1>
-
-<?php
-$titles = file_get_contents('note.txt'); // ler arquivo
-$titles = explode("\n", $titles); // quebrar texto por linhas
-$titles = implode(' ', $titles); // transformando em string
-echo $titles;
-?>
->>>>>>> c2624cf3f08ec43e111fad914944b5361ebe88a4
