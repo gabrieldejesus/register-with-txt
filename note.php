@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -10,13 +9,13 @@
 <body>
     <main>
         <div class="container column">
-            <h1>Titulo</h1>
-            <form method="POST" class="column" action="recebedor.php">
-                <input type="text" name="title" autofocus placeholder="Digite aqui o titulo...">
-                <h1>Anotação</h1>
-                    <textarea name="text" placeholder="Digite aqui suas anotações..." maxlength="573"></textarea>
-                <input type="submit" value="Salvar">
-            </form>
+        <?php
+            $contents = file_get_contents('note.txt'); // ler arquivo
+            $contents = explode("\n", $contents); // quebrar texto por linhas
+            $contents = implode(' ', $contents); // transformando em string
+            echo $contents;
+        ?>
+        <a href="index.php">Criar nova anotação</a>
         </div>
     </main>
 </body>
