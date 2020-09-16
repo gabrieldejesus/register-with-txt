@@ -5,6 +5,7 @@
 A simple project where I send information I write to a file and then read it
 
 `Web preview`
+
 ![](web-preview.gif)
 
 ## Release history
