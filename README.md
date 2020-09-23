@@ -13,7 +13,7 @@ System is used to read and insert information in a txt file. It was created to e
 
 ## Meta
 
-Gabriel de Jesus – (https://www.gabrieldesenvolvedor.com/) – contato@gabrieldesenvolvedor.com
+Gabriel de Jesus – (https://www.gabrieldesenvolvedor.com/) – oi@gabrieldesenvolvedor.com
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
